@@ -1,6 +1,6 @@
 module.exports = {
   title: '抖音/B站搜索：前端Sam老师',
-  base: '/sam/',
+  base: '/sam-docs/',
   description: '前端Sam老师专属官网',
   markdown: {
     // markdown-it-anchor 的选项
