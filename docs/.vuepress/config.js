@@ -21,7 +21,8 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: 'Sam老师简历', link: '/resume/' },
-      { text: '跟Sam老师学前端', link: '/learn/' },
+      { text: '前端知识分享', link: '/learn/' },
+      { text: '前端原创课程', link: '/buy/' },
       // // { text: '补充阅读', link: '/column/' },
       // // { text: '习题', link: '/exercise/' },
       // { text: '答疑汇总', link: '/qa/' },
@@ -48,6 +49,15 @@ module.exports = {
           ],
         },
       ],
+      '/buy/': [
+        {
+          title: '毕业系列',
+          collapsable: false,
+          children: [
+            'design/',
+          ],
+        },
+      ]
     },
   },
 };
